@@ -1,5 +1,4 @@
 import 'package:after_layout/after_layout.dart';
-import 'package:fast_app_base/common/cli_common.dart';
 import 'package:fast_app_base/screen/main/tab/tab_item.dart';
 import 'package:fast_app_base/screen/main/tab/tab_navigator.dart';
 import 'package:flutter/material.dart';
@@ -41,9 +40,7 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
     // await login();
     // await loading();
 
-    delay(() {
-      FlutterNativeSplash.remove();
-    }, 1500.ms);
+    FlutterNativeSplash.remove();
   }
 
   @override
