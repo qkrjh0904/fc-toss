@@ -34,6 +34,8 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
 
   static double get bottomNavigationBarBorderRadius => 30.0;
 
+  static const double bottomNavigationBarHeight = 50;
+
   @override
   FutureOr<void> afterFirstLayout(BuildContext context) async {
     // 로그인 및 로딩 구현
